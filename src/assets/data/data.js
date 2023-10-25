@@ -29,7 +29,7 @@ const stomachhAche = [
         hightlightPic : epigastriumHighlight,
         activePic : epigastriumActive,
         boxes : [
-            { position1 : "150px" , position2 : "130px" }
+            { position1 : "125px" , position2 : "105px" }
         ]
     },{
         id : 2,
@@ -38,7 +38,7 @@ const stomachhAche = [
         hightlightPic : llqHighlight,
         activePic : llqActive,
         boxes : [
-            { position1 : "210px" , position2 : "160px" }
+            { position1 : "173px" , position2 : "130px" }
         ]
     },{
         id : 3,
@@ -47,7 +47,7 @@ const stomachhAche = [
         hightlightPic : luqHighlight,
         activePic : luqActive,
         boxes : [
-            { position1 : "172px" , position2 : "160px" }
+            { position1 : "142px" , position2 : "128px" }
         ]
     },{
         id : 4,
@@ -56,7 +56,7 @@ const stomachhAche = [
         hightlightPic : rlqHighlight,
         activePic : rlqActive,
         boxes : [
-            { position1 : "212px" , position2 : "98px" }
+            { position1 : "175px" , position2 : "80px" }
         ]
     },{
         id : 5,
@@ -65,7 +65,7 @@ const stomachhAche = [
         hightlightPic : ruqHighlight,
         activePic : ruqActive,
         boxes : [
-            { position1 : "172px" , position2 : "100px" }
+            { position1 : "143px" , position2 : "83px" }
         ]
     },{
         id : 6,
@@ -74,7 +74,7 @@ const stomachhAche = [
         hightlightPic : suprapubicHighlight,
         activePic : suprapubicActive,
         boxes : [
-            { position1 : "230px" , position2 : "130px" }
+            { position1 : "188px" , position2 : "105px" }
         ]
     },{
         id : 7,
@@ -83,7 +83,7 @@ const stomachhAche = [
         hightlightPic : umbilicusHighlight,
         activePic : umbilicusActive,
         boxes : [
-            { position1 : "192px" , position2 : "130px" }
+            { position1 : "158px" , position2 : "105px" }
         ]
     }
 ];
@@ -96,10 +96,10 @@ const fingerPain = [
         hightlightPic : dipHighlight,
         activePic : dipActive,
         boxes : [
-            { position1 : "105px" , position2 : "64px" },
-            { position1 : "65px" , position2 : "100px" },
-            { position1 : "50px" , position2 : "132px" },
-            { position1 : "58px" , position2 : "169px" },
+            { position1 : "80px" , position2 : "48px" },
+            { position1 : "50px" , position2 : "72px" },
+            { position1 : "40px" , position2 : "102px" },
+            { position1 : "45px" , position2 : "130px" },
         ]
     },{
         id : 2,
@@ -108,11 +108,11 @@ const fingerPain = [
         hightlightPic : pipHighlight,
         activePic : pipActive,
         boxes : [
-            { position1 : "132px" , position2 : "74px" },
-            { position1 : "102px" , position2 : "103px" },
-            { position1 : "90px" , position2 : "135px" },
-            { position1 : "95px" , position2 : "169px" },
-            { position1 : "165px" , position2 : "232px" },
+            { position1 : "105px" , position2 : "50px" },
+            { position1 : "77px" , position2 : "77px" },
+            { position1 : "70px" , position2 : "105px" },
+            { position1 : "75px" , position2 : "130px" },
+            { position1 : "130px" , position2 : "180px" },
         ]
     },{
         id : 3,
@@ -121,11 +121,11 @@ const fingerPain = [
         hightlightPic : mcpHighlight,
         activePic : mcpActive,
         boxes : [
-            { position1 : "165px" , position2 : "88px" },
-            { position1 : "152px" , position2 : "112px" },
-            { position1 : "145px" , position2 : "139px" },
-            { position1 : "145px" , position2 : "167px" },
-            { position1 : "207px" , position2 : "207px" },
+            { position1 : "126px" , position2 : "65px" },
+            { position1 : "120px" , position2 : "85px" },
+            { position1 : "112px" , position2 : "106px" },
+            { position1 : "115px" , position2 : "130px" },
+            { position1 : "160px" , position2 : "160px" },
         ]
     }
 ];
