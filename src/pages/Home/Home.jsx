@@ -1,10 +1,13 @@
 import React , { useState } from 'react';
-import { Helmet } from 'react-helmet';
 
 // components
+import SEO from '../../components/SEO/SEO';
 import FingerPainCard from '../../components/cards/FingerPainCard/FingerPainCard';
 import StomachAcheCard from '../../components/cards/StomachAcheCard/StomachAcheCard';
 import ResultCard from '../../components/cards/ResultCard/ResultCard';
+
+// images
+import favicon from '../../assets/images/etc/agnos_health_logo.jpg';
 
 export default function Home() {
 
@@ -27,9 +30,11 @@ export default function Home() {
 
   return (
     <>
-        <Helmet>
-            <title>Agnos Front-End Test</title>
-        </Helmet>
+        <SEO 
+          title="Agnos Front-End Test"
+          description="แบบทดสอบ Front-End Developer"
+          favicon={favicon}
+        />
         <section className='flex flex-col items-center justify-start w-full h-screen p-10 container mx-auto'>
             <h1 className='text-3xl font-bold'>Agnos Front-End Test</h1>
             {step === 1 ? <StomachAcheCard setStomachAche={setStomachAche} /> : null}
