@@ -35,14 +35,14 @@ export default function Home() {
           description="แบบทดสอบ Front-End Developer"
           favicon={favicon}
         />
-        <section className='flex flex-col items-center justify-start w-full h-screen p-10 container mx-auto'>
-            <h1 className='text-3xl font-bold'>Agnos Front-End Test</h1>
+        <section className='flex flex-col items-center justify-center w-full h-screen p-10 container mx-auto'>
+            <h1 className='text-2xl font-bold'>Agnos Front-End Test</h1>
             {step === 1 ? <StomachAcheCard setStomachAche={setStomachAche} /> : null}
             {step === 2 ? <FingerPainCard setFingerPain={setFingerPain} /> : null}
             {step === 3 ? <ResultCard stomachAche={stomachAche} fingerPain={fingerPain} /> : null}
             <button 
               type='submit'
-              className={stomachAche === "" ? 'bg-gray-500 text-white font-bold my-4 py-2 px-4 rounded-lg w-96 opacity-50 cursor-not-allowed' : 'bg-blue-500 text-white font-bold my-4 py-2 px-4 rounded-lg w-96 hover:bg-blue-600'}
+              className={stomachAche === "" ? 'bg-gray-500 text-white font-bold my-4 py-2 px-4 rounded-lg w-80 opacity-50 cursor-not-allowed' : 'bg-blue-500 text-white font-bold my-4 py-2 px-4 rounded-lg w-80 hover:bg-blue-600'}
               onClick={() => handleStep()}
             >
               {step < 3 ? "ต่อไป" : "ส่ง"}

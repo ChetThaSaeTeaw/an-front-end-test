@@ -57,8 +57,8 @@ export default function StomachAcheCard({ setStomachAche }) {
   },[selectPain]);
 
   return (
-    <div className='flex flex-col items-center justify-center p-10 w-96 mt-10 border border-gray-100 rounded shadow-2xl'>
-        <h2 className='text-xl text-slate-500 font-bold'>ปวดท้องที่บริเวณใดมากที่สุด ?</h2>
+    <div className='flex flex-col items-center justify-center p-10 w-80 mt-10 border border-gray-100 rounded shadow-2xl'>
+        <h2 className='text-lg text-slate-500 font-bold'>ปวดท้องที่บริเวณใดมากที่สุด ?</h2>
         <div className='relative flex items-center justify-center'>
           <img 
               src={bodyPic}
